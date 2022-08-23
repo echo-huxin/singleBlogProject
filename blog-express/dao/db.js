@@ -57,8 +57,8 @@ const md5 = require("md5");
   if (!bannerCount) {
     await bannerModel.bulkCreate([
       {
-        midImg: "/static/images/childLF.png",
-        bigImg: "/static/images/minChildLF.png",
+        midImg: "/static/images/minChildLF.png",
+        bigImg: "/static/images/childLF.png",
         title: "蒙奇·D·路飞(モンキー・D・ルフィ)",
         description:
           "比如说有一块肉，英雄会把它分给别人，而海贼会拿它来开宴会。我喜欢吃肉！ 我不是英雄，我只做我想做的事，保护我想要保护的人而已。",
