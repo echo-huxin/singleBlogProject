@@ -35,6 +35,7 @@ module.exports.findBlogByPageDao = async function (pageInfo) {
           as: "category",
         },
       ],
+      order: [["createDate", "DESC"]],
       offset: (pageInfo.page * 1 - 1) * pageInfo.limit,
       limit: pageInfo.limit * 1,
     });
