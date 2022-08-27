@@ -110,7 +110,7 @@
 }
 .work-experience .work-experience-details{
     display:grid;
-    grid-template-columns: 1fr 1fr 300px 1fr 1fr;
+    grid-template-columns: 150px 1fr 1fr;
     /* grid-template-columns: repeat(4,1fr); */
     gap: 10px 20px; 
     /* justify-items:center; */
